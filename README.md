@@ -2,6 +2,7 @@
 
 ## Pré-requisitos
 Docker
+
 Node.js e npm (se for rodar localmente)
 
 # Iniciando
@@ -43,8 +44,11 @@ npm test
 Depois de garantir que os containers estão em execução, acesse os serviços nos seguintes URLs no navegador:
 
 Main Application: http://127.0.0.1:8082
+
 MF Drawer: http://127.0.0.1:8080
+
 MF Videos: http://127.0.0.1:8081
+
 BFF (API): http://127.0.0.1:3000/api/videos?q=test
 
 
